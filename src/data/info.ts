@@ -9,25 +9,20 @@ export const info = {
   cv: "/My_Resume.pdf",
 
   about: {
-    description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
-    I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `I'm Anuj Jambhale, a passionate and driven software developer with a strong foundation in computer science. With a Bachelor’s degree in Computer Science and ongoing Master’s studies, I have honed my skills in programming, web development, and software design.
+    In addition to my technical skills, I’m also experienced in game development, video editing, and animation, which allows me to bring a creative edge to my work. I thrive in both team environments and independent projects, constantly eager to learn and adapt to new challenges.
+Explore my work, learn more about my journey, and get in touch if you're interested in collaborating or learning more about what I do!`,
     education: [
       {
         title: "Bachelors in Science, Computer Science ",
         date: "2020 - 2023",
         location: "Tilak College of Science and Commerce, Vashi",
         gpa: "9.68 CGPA",
-        
       },
       {
         title: "Masters in Science, Computer Science ",
         date: "2023 - Present",
         location: "SIES College of Arts, Science and Commerce, Nerul",
-        
-        
       },
     ],
     experience: [
@@ -35,8 +30,7 @@ export const info = {
         title: "Web Developer Intern",
         date: "Present",
         location: "Rasheed Foundation, Navi Mumbai",
-        description:
-          "Crafted interactive web experiences using PHP.",
+        description: "Crafted interactive web experiences using PHP.",
       },
     ],
 
@@ -50,7 +44,7 @@ export const info = {
       description:
         "A POS system made with Java for desktop which utilizes the Android Barcode Scanner Application instead of the Physical barcode scanner",
       link: "https://github.com/jambhaleAnuj/java_point_of_sales_3",
-      tech: ["Java", "IReport", "Zxing", "Android" ],
+      tech: ["Java", "IReport", "Zxing", "Android"],
       img_alt: "Anuj's Portfolio",
       img_path: "/pos.png",
     },
