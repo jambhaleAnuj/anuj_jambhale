@@ -9,9 +9,11 @@ export const info = {
   cv: "/My_Resume.pdf",
 
   about: {
-    description: `I'm Anuj Jambhale, a passionate and driven software developer with a strong foundation in computer science. With a Bachelor’s degree in Computer Science and ongoing Master’s studies, I have honed my skills in programming, web development, and software design.
-    In addition to my technical skills, I’m also experienced in game development, video editing, and animation, which allows me to bring a creative edge to my work. I thrive in both team environments and independent projects, constantly eager to learn and adapt to new challenges.
-Explore my work, learn more about my journey, and get in touch if you're interested in collaborating or learning more about what I do!`,
+    description: `I'm Anuj Jambhale, a passionate and driven software developer with a strong foundation in computer science. 
+  With a Bachelor’s degree in Computer Science and ongoing Master’s studies, I have honed my skills in programming, web development, and software design.<br><br>
+  In addition to my technical skills, I’m also experienced in game development, video editing, and animation, which allows me to bring a creative edge to my work. 
+  I thrive in both team environments and independent projects, constantly eager to learn and adapt to new challenges.<br><br>
+  Explore my work, learn more about my journey, and get in touch if you're interested in collaborating or learning more about what I do!`,
     education: [
       {
         title: "Bachelors in Science, Computer Science ",
