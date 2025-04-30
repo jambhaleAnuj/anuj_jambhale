@@ -26,9 +26,9 @@ export default function ProjectCard(props: ProjectCardProps) {
           />
         </a>
       </div>
-      <div className="flex-1 bg-primary dark:bg-dk-primary p-6 flex flex-col justify-between">
+      <div className="flex-1 bg-primary dark:bg-dk-primary p-6 flex flex-col justify-between ">
         <div className="flex-1">
-          <p className="text-sm font-medium text-text dark:text-dk-text">
+          <p className="text-lg font-medium font-medium text-text dark:text-dk-text">
             <a
               href={project.link}
               rel="noreferrer"
@@ -44,7 +44,7 @@ export default function ProjectCard(props: ProjectCardProps) {
             className="block mt-2"
             aria-label="Description of the project, click to open the project page"
           >
-            <p className="text-xl font-semibold text-gray-900">
+            <p className="text-md font-normal text-gray-900">
               {project.description}
             </p>
           </a>

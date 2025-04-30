@@ -23,14 +23,14 @@ export const info = {
       },
       {
         title: "Masters in Science, Computer Science ",
-        date: "2023 - Present",
+        date: "2023 - 2025",
         location: "SIES College of Arts, Science and Commerce, Nerul",
       },
     ],
     experience: [
       {
         title: "Web Developer Intern",
-        date: "Present",
+        date: "1 May 2024 - 31 May 2024",
         location: "Rasheed Foundation, Navi Mumbai",
         description: "Crafted interactive web experiences using PHP.",
       },

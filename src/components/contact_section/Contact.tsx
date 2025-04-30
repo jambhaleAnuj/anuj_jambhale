@@ -49,7 +49,7 @@ export default function Contact({ contact, size }: ContactProps) {
           target="_blank"
           rel="noreferrer"
           className={
-            "text-secondary dark:text-dk-secondary hover:text-accent dark:hover:text-dk-accent " +
+            "dark:text-white hover:text-accent dark:hover:text-dk-accent " +
             (size === "md" ? "text-3xl lg:text-4xl" : "text-5xl lg:text-9xl")
           }
           aria-label={socialMedia.link_alt}

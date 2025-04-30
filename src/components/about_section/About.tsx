@@ -12,10 +12,10 @@ export default function About(props: AboutProps) {
 
   return (
     <div className="flex flex-col justify-center items-center h-full space-y-4">
-      <div className="flex flex-col space-y-4 w-full lg:w-1/2 mx-4">
-        <h1 className="text-4xl font-bold">About me</h1>
+      <div className="flex flex-col space-y-4 w-full lg:w-[75%] mx-4">
+        <h1 className="lg:text-4xl font-bold md:text-2xl sm:text-lg ">About me</h1>
         <p
-          className="text-2xl font-normal"
+          className="lg:text-2xl font-normal sm:text-sm md:text-xl"
           dangerouslySetInnerHTML={{ __html: about.description }}
         ></p>
         <div className="py-20"></div>

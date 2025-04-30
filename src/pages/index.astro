@@ -22,6 +22,7 @@ const allPosts = await Astro.glob("./posts/*.md");
           alt={info.picture_alt}
           width={200}
           height={200}
+          loading="eager"
           class="lg:h-96 lg:w-96 h-40 w-40 rounded-full object-fill object-center space-x-8"
         />
       </div>
@@ -53,13 +54,13 @@ const allPosts = await Astro.glob("./posts/*.md");
   >
     <ProjectCarousel projects={info.projects} client:only />
   </section>
-
+  <!-- 
   <section
     class="lg:h-screen lg:m-0 my-20 flex-col flex justify-center w-full"
     id="blog"
-  >
-    <!--  <Blog posts={allPosts} /> -->
-  </section>
+  > -->
+  <!--  <Blog posts={allPosts} /> -->
+  <!-- </section> -->
 
   <section
     class="lg:h-screen lg:m-0 my-20 mx-2 flex-col flex justify-center w-full"
