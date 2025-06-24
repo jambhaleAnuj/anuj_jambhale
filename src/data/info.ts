@@ -4,7 +4,7 @@ export const info = {
     "I'm a full stack developer with a knack for Game Development.",
   role: "Full Stack Developer",
   picture: "/my_photo.png",
-  picture_alt: "Bart Simpson",
+  picture_alt: "Anuj Jambhale",
   location: "Mumbai, India",
   cv: "/My_Resume.pdf",
 

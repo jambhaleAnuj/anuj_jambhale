@@ -2,7 +2,7 @@
 import Nav from "../components/navbar/Nav";
 import TopButton from "../components/TopButton";
 import Pointer from "../components/Pointer";
-
+import Analytics from "@vercel/analytics/astro";
 const { title } = Astro.props;
 const posts = await Astro.glob("../pages/posts/*.md");
 
@@ -27,7 +27,7 @@ import "../styles/global.css";
     <link
       rel="alternate"
       type="application/rss+xml"
-      title="Your Site's Title"
+      title="Anuj Jambhale's Portfolio"
       href={`${Astro.site}rss.xml`}
     />
     <meta name="generator" content={Astro.generator} />
@@ -69,6 +69,7 @@ import "../styles/global.css";
     </script>
   </head>
   <body class="bg-primary dark:bg-dk-primary w-full container mx-auto">
+    <Analytics />
     <Nav client:visible posts={posts} />
     <div class="container mx-auto px-4">
       <slot />
