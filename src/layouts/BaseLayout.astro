@@ -35,6 +35,25 @@ import "../styles/global.css";
       href={`${Astro.site}rss.xml`}
     />
     <meta name="generator" content={Astro.generator} />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content={title} />
+    <meta
+      property="og:description"
+      content="A portfolio website for a software developer"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.site} />
+    <meta property="og:image" content={`${Astro.site}my_photo.png`} />
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta
+      name="twitter:description"
+      content="A portfolio website for a software developer"
+    />
+    <meta name="twitter:image" content={`${Astro.site}my_photo.png`} />
+    <!-- Canonical URL -->
+    <link rel="canonical" href={Astro.url?.href || Astro.site} />
     <script type="text/javascript">
       (function () {
         var css = document.createElement("link");
