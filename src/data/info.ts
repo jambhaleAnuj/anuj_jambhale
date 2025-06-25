@@ -6,7 +6,7 @@ export const info = {
   picture: "/my_photo.png",
   picture_alt: "Anuj Jambhale",
   location: "Mumbai, India",
-  cv: "/My_Resume.pdf",
+  cv: "/Anuj Jambhale - Resume Updated.pdf",
 
   about: {
     description: `I'm Anuj Jambhale, a passionate and driven software developer with a strong foundation in computer science. 
