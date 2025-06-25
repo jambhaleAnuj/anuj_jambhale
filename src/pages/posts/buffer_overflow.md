@@ -2,7 +2,7 @@
 title: "Buffer Overflow"
 date: "2024-01-15"
 
-layout: ../../layouts/PostLayout.astro
+# layout: "../../layouts/PostLayout.astro"
 description: "Learn how to exploit buffer overflows in this post!"
 
 img_path : "/buffer_overflow.png"
