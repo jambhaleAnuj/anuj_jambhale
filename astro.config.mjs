@@ -11,6 +11,6 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [rehypeAccessibleEmojis],
   },
-  site: "htttps://www.jambhaleanuj.tech",
+  site: "https://www.jambhaleanuj.tech",
   integrations: [tailwind(), react(), robotsTxt(), sitemap()],
 });
