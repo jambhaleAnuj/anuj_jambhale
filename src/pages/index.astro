@@ -7,7 +7,6 @@ import About from "../components/about_section/About";
 // import Blog from "../components/post_section/Blog.astro";
 import Projects from "../components/projects_section/Projects";
 import Certifications from "../components/projects_section/Certifications";
-import { Image } from "astro:assets";
 
 // const allPosts = await Astro.glob("./posts/*.md");
 ---
@@ -18,13 +17,14 @@ import { Image } from "astro:assets";
       class="flex flex-col lg:flex-row justify-center items-center h-full space-y-4"
     >
       <div class="profile-pic">
-        <Image
+        <img
           src={info.picture}
           alt={info.picture_alt}
-          width={200}
-          height={200}
+          width="200"
+          height="200"
           loading="eager"
           class="lg:h-96 lg:w-96 h-40 w-40 rounded-full object-fill object-center space-x-8"
+          fetchpriority="high"
         />
       </div>
 
@@ -78,6 +78,10 @@ import { Image } from "astro:assets";
     </div>
   </section>
 </BaseLayout>
+
+<head>
+  <link rel="preload" as="image" href="/my_photo.webp" />
+</head>
 
 <style>
   .typewriter {

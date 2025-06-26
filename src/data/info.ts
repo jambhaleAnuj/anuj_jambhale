@@ -3,7 +3,7 @@ export const info = {
   brief_description:
     "I'm a full stack developer with a knack for Game Development.",
   role: "Full Stack Developer",
-  picture: "/my_photo.png",
+  picture: "/my_photo.webp",
   picture_alt: "Anuj Jambhale",
   location: "Mumbai, India",
   cv: "/Anuj Jambhale - Resume Updated.pdf",
