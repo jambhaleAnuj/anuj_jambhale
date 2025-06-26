@@ -5,8 +5,8 @@ import ProjectCarousel from "../components/projects_section/ProjectCarousel";
 import Contact from "../components/contact_section/Contact";
 import About from "../components/about_section/About";
 // import Blog from "../components/post_section/Blog.astro";
-// import Projects from "../components/projects_section/Projects";
-
+import Projects from "../components/projects_section/Projects";
+import Certifications from "../components/projects_section/Certifications";
 import { Image } from "astro:assets";
 
 // const allPosts = await Astro.glob("./posts/*.md");
@@ -49,21 +49,26 @@ import { Image } from "astro:assets";
     <About about={info.about} client:visible />
   </section>
 
-  <section
+  <!-- <section
     class="lg:h-screen lg:m-0 my-20 mx-2 flex-col flex justify-center w-full"
     id="projects"
-  >
-    <ProjectCarousel projects={info.projects} client:only />
-  </section>
-
-  <!-- <section
-    class="lg:h-screen lg:m-0 my-20 flex-col flex justify-center w-full"
-    id="blog"
   > -->
-  <!-- <Projects /> -->
-  <!--  <Blog posts={allPosts} /> -->
+  <!-- <ProjectCarousel projects={info.projects} client:only /> -->
   <!-- </section> -->
 
+  <section
+    class="my-20 py-24 px-4 flex-col flex justify-center w-full"
+    id="projects"
+  >
+    <Projects client:only />
+  </section>
+
+  <section
+    class="my-20 py-24 px-4 flex-col flex justify-center w-full"
+    id="certifications"
+  >
+    <Certifications client:only />
+  </section>
   <section
     class="lg:h-screen lg:m-0 my-20 mx-2 flex-col flex justify-center w-full"
     id="contact"
