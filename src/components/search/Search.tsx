@@ -12,7 +12,7 @@ export default function Search({ posts }: any) {
     Modal.setAppElement("body");
   }, []);
 
-  const fuse = new Fuse(posts, {
+  const fuse = new Fuse(posts || [], {
     keys: ["frontmatter.title", "frontmatter.description"],
   });
 

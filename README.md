@@ -1,16 +1,19 @@
 # Anuj Jambhale's Portfolio
 
-A modern, responsive portfolio website built with [Astro](https://astro.build/), React, and Tailwind CSS. Showcasing my projects, experience, and contact information.
+A fast, modern, responsive portfolio website built with [Astro](https://astro.build/), React, and Tailwind CSS. Showcasing my projects, experience, and contact information.
 
 ## 🚀 Features
-- Fast, SEO-friendly static site
+
+- Ultra-fast static site with optimized loading
+- SEO-friendly with meta tags and sitemap
 - Responsive design with Tailwind CSS
-- Project carousel and featured projects
+- Featured projects and certifications
 - Contact form and social links
 - Dark mode support
-- RSS feed and sitemap
+- Optimized images and fonts
 
 ## 🛠️ Tech Stack
+
 - [Astro](https://astro.build/)
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -41,12 +44,14 @@ A modern, responsive portfolio website built with [Astro](https://astro.build/),
    ```
 
 ## 📁 Project Structure
+
 - `src/pages/` — Main pages (index, contact, etc.)
 - `src/components/` — React and Astro components
 - `src/data/info.ts` — Personal and project data
 - `public/` — Static assets (images, resume, etc.)
 
 ## ✨ Customization
+
 - Update your info and projects in `src/data/info.ts`.
 - Add or update images in the `public/` folder.
 - Tweak styles in `src/styles/global.css` or Tailwind config.
@@ -58,4 +63,3 @@ This project is licensed under the MIT License.
 ---
 
 > Built with ❤️ by Anuj Jambhale
-

@@ -4,7 +4,7 @@ import Search from "../search/Search";
 import Hamburger from "./Hamburger";
 import { info } from "../../data/info";
 
-export default function Nav({ posts }) {
+export default function Nav({ posts = [] }) {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const navLinks = [
@@ -33,15 +33,16 @@ export default function Nav({ posts }) {
             </span>
           </a>
 
-          {/* Button for CV download */}
+          {/* Button for CV view */}
           <a
             href={info.cv}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 border-2 rounded text-secondary dark:text-dk-secondary border-secondary dark:border-dk-secondary hover:bg-secondary dark:hover:bg-dk-secondary hover:text-primary dark:hover:text-primary cursor-pointer"
           >
-            <i className="fas fa-download mr-2"></i>
+            <i className="fas fa-external-link-alt mr-2"></i>
             <span className="hidden lg:inline-block font-medium">
-              Download CV
+              View CV
             </span>
             <span className="lg:hidden font-medium">CV</span>
           </a>

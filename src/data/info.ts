@@ -1,19 +1,19 @@
 export const info = {
   name: "Anuj Jambhale",
   brief_description:
-    "I'm a full stack developer with a knack for Game Development.",
+    "I'm Anuj, a full stack developer from Mumbai with expertise in JavaScript, React, Node.js, and Game Development.",
   role: "Full Stack Developer",
   picture: "/my_photo.webp",
   picture_alt: "Anuj Jambhale",
   location: "Mumbai, India",
-  cv: "/Anuj Jambhale - Resume Updated.pdf",
+  cv: "https://drive.google.com/file/d/1bGBVj2n44ZrkfwIuQHMrbM8dHpZC9bRV/view?usp=sharing",
 
   about: {
-    description: `I'm Anuj Jambhale, a passionate and driven software developer with a strong foundation in computer science. 
-  With a Bachelor’s degree in Computer Science and ongoing Master’s studies, I have honed my skills in programming, web development, and software design.<br><br>
-  In addition to my technical skills, I’m also experienced in game development, video editing, and animation, which allows me to bring a creative edge to my work. 
-  I thrive in both team environments and independent projects, constantly eager to learn and adapt to new challenges.<br><br>
-  Explore my work, learn more about my journey, and get in touch if you're interested in collaborating or learning more about what I do!`,
+    description: `I'm Anuj Jambhale, a highly skilled Full Stack Developer and Software Engineer based in Mumbai, India, with comprehensive expertise in modern web technologies and game development. 
+  With a Master's degree in Computer Science and proven experience in JavaScript, React, Node.js, MongoDB, C#, and PHP, I specialize in creating scalable web applications and innovative digital solutions.<br><br>
+  As a versatile developer, I bring a unique combination of technical proficiency and creative expertise in game development, video editing, and animation. This diverse skill set enables me to deliver comprehensive solutions that blend functionality with exceptional user experience. 
+  My experience spans both collaborative team environments and independent project leadership, with a strong focus on delivering high-quality, performance-optimized applications.<br><br>
+  I am passionate about staying current with emerging technologies and best practices in software development. Whether you're looking for a dedicated team member or seeking to bring your innovative ideas to life, I'm ready to contribute to your success. Let's connect and explore how we can collaborate on your next project!`,
     education: [
       {
         title: "Bachelors in Science, Computer Science ",
@@ -25,6 +25,7 @@ export const info = {
         title: "Masters in Science, Computer Science ",
         date: "2023 - 2025",
         location: "SIES College of Arts, Science and Commerce, Nerul",
+        gpa: "9.27 CGPA",
       },
     ],
     experience: [
@@ -32,7 +33,7 @@ export const info = {
         title: "Web Developer Intern",
         date: "1 May 2024 - 31 May 2024",
         location: "Rasheed Foundation, Navi Mumbai",
-        description: "Crafted interactive web experiences using PHP.",
+        description: `Built and deployed a 12-page informational website using PHP, MySQL on WAMP; implemented blog and certificate-verification portal, enabling secure certificate lookups by users.\n Optimized front-end assets (image compression, CSS/JS minification) reducing page load time by 30% and improving Lighthouse performance score from 75 to 92.`,
       },
     ],
 

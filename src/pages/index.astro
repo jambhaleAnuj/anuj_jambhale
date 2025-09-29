@@ -1,17 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { info } from "../data/info";
-import ProjectCarousel from "../components/projects_section/ProjectCarousel";
 import Contact from "../components/contact_section/Contact";
 import About from "../components/about_section/About";
-// import Blog from "../components/post_section/Blog.astro";
 import Projects from "../components/projects_section/Projects";
 import Certifications from "../components/projects_section/Certifications";
-
-// const allPosts = await Astro.glob("./posts/*.md");
 ---
 
-<BaseLayout title="Home">
+<BaseLayout
+  title="Home"
+  description="Anuj Jambhale - Full Stack Developer from Mumbai, India. Anuj specializes in JavaScript, React, Node.js, MongoDB, and game development. Explore Anuj's portfolio, projects, and professional experience."
+>
   <section class="lg:h-screen lg:m-0 my-20 mx-2" id="home">
     <div
       class="flex flex-col lg:flex-row justify-center items-center h-full space-y-4"
@@ -23,7 +22,7 @@ import Certifications from "../components/projects_section/Certifications";
           width="200"
           height="200"
           loading="eager"
-          class="lg:h-96 lg:w-96 h-40 w-40 rounded-full object-fill object-center space-x-8"
+          class="lg:h-96 lg:w-96 h-40 w-40 rounded-full object-cover object-center"
           fetchpriority="high"
         />
       </div>
