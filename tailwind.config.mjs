@@ -11,7 +11,7 @@ export default {
         accent: "#0D2563",
         text: "#353755",
         "dk-primary": "#282828",
-        "dk-secondary": "#9d64d3",
+        "dk-secondary": "#CFAEE5",
         "dk-accent": "#c9a5e7",
         "dk-text": "#f5f5f5",
       },

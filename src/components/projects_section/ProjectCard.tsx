@@ -1,5 +1,5 @@
 import { info } from "../../data/info";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 interface ProjectCardProps {
@@ -17,12 +17,12 @@ export default function ProjectCard(props: ProjectCardProps) {
           rel="noreferrer"
           aria-label={project.img_alt + ", click to open the project page"}
         >
-          <LazyLoadImage
+          <img
             className="h-52 w-full object-cover"
             src={project.img_path}
             alt={project.img_alt}
             width="100%"
-            effect="blur"
+            loading="lazy"
           />
         </a>
       </div>

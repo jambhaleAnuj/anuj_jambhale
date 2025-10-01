@@ -50,7 +50,7 @@ export const info = {
       tech: ["Java", "IReport", "Zxing", "Android"],
       img_alt:
         "Screenshot of Java Point of Sales with Android Barcode Scanner Application interface.",
-      img_path: "/pos.png",
+      img_path: "/pos.avif",
     },
     {
       title: "Music control using hand gesture recognition",
@@ -61,7 +61,7 @@ export const info = {
       tech: ["Python", "Tensorflow", "OpenCV", "pygame"],
       img_alt:
         "Screenshot of music control system using hand gesture recognition.",
-      img_path: "/hand_recognition.png",
+      img_path: "/hand_recognition.avif",
     },
     {
       title: "Ping Pong Game made using Unity game engine",
@@ -71,7 +71,7 @@ export const info = {
       link: "https://github.com/bartsimpsonfake/comic-club",
       tech: ["Unity Engine", "C#"],
       img_alt: "Screenshot of Ping Pong Game made in Unity.",
-      img_path: "/ping_pong.png",
+      img_path: "/ping_pong.avif",
     },
   ],
 
